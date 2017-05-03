@@ -22,6 +22,11 @@
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,6 +37,31 @@
 </head>
 
 <body>
+    <style>
+
+.art_school{
+    width:100%
+
+
+}
+
+.panel-body{
+font-family: 'Crimson Text', serif;
+font-size: 16px;
+
+
+}
+.dropdown-menu>li>a{
+font-family: 'Cinzel', serif;
+
+
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    font-family: 'Cinzel', serif;}
+
+
+    </style>
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top"  role="navigation">
@@ -59,13 +89,13 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Audubon <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-item.html">Biography</a>
+                                <a href="portfolio-item.html#biography">Biography</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Contributions</a>
+                                <a href="portfolio-item.html#important">Contributions</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Books</a>
+                                <a href="portfolio-item.html#books">Books</a>
                             </li>
 
                         </ul>
@@ -139,21 +169,25 @@
         <div class="carousel-inner">
 
             <div class="item active">
-                <div class="top" style="background-image:url('images/audubon.jpg');"></div>
+                <a href="portfolio-item.html"> <img class="top" src="images/audubon.jpg" alt="Audubon picture"/></a>
+
                 <div class="carousel-caption">
 
-                    <h2>John James Audubon</h2>
+                    <h2>John James Audubon (1785-1851)</h2>
 
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('images/white.jpg');"></div>
+                <a href="portfolio-1-col.html#wolf"> <img class="fill" src="images/white.jpg" alt="Wolf"/></a>
+
+
                 <div class="carousel-caption">
                     <h2></h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('images/frog.jpg');"></div>
+                <a href="portfolio-1-col.html#squirrel"> <img class="fill" src="images2/IMG_5100.JPG" alt="squirrel"/></a>
+
                 <div class="carousel-caption">
                     <h2></h2>
                 </div>
@@ -175,33 +209,33 @@
         <!-- Marketing Icons Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
+                <h1 class="page-header" style="font-family: 'Droid Serif', serif;">
                     Who is Audubon?
                 </h1>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4><i class="fa fa-fw fa-info"></i> Biography</h4>
                     </div>
                     <div class="panel-body">
                         <p>
-                            John James Audubon was born in Saint Dominigue (now Haiti) on April 26, 1785.
-                            He was the son of Jean Audubon, a French adventurer, and Mademoiselle Rabin,
-                        about whom little is known except that she was a Creole and died soon after her son's
-                        birth. Audubon was an illegitimate child, meaning that his father was not married to
-                        his mother...
+                            John James Audubon, born April 26, 1785 in Les Cayes,
+                            in what is now Haiti, was an American naturalist and a painter,
+                             known for his extensive studies and documenting all types of American birds.
+                             At the age of eighteen, the son of a French sea captain, John James Audubon
+                             came to United States because of the war that broke out between France and England.
 
 
 
 
 
                         </p>
-                        <a href="portfolio-item.html" class="btn btn-default">Learn More</a>
+                        <a href="portfolio-item.html#biography" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4><i class="fa fa-fw fa-gift"></i> Contributions</h4>
@@ -213,32 +247,31 @@
                              With an avid interest in birds and drawing right from his childhood days,
                               Audubon went on to be the most distinguished illustrator of the 19th century.
                               Venturing into nature and observing, he explored different American birds
-                               and documented them...
+                               and documented them.
 
 
 
 
                         </p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <a href="portfolio-item.html#important" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4><i class="fa fa-fw fa-book"></i> Books</h4>
                     </div>
                     <div class="panel-body">
-                        <p>John James Audubon is best known for The Birds of America,
-                            a book of 435 images, portraits of every bird then known in the United States –
-                             painted and reproduced in the size of life. Its creation cost Audubon eighteen
-                             years of monumental effort in finding the birds,
-                            making the book, and selling it to subscribers.
-                            His books “The Birds of North America”
-                            be...
+                        <p>His most well-known work is a color-plate book named <i>The Birds of America</i> that contains
+                            illustrations of a various species of American birds. In order to print <i>The Birds of America</i>,
+                             Audubon had to sail from New Orleans to Liverpool with his portfolio of more than 300 drawings.As a result, in 1826, he raised enough money to publish his
+                             <i>Birds of America</i> which consists of 435 hand-colored,
+                              life-size prints of 497 bird species which were made
+                              from engraved copper plates of different sizes.
 
                         </p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <a href="portfolio-item.html#books" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -248,23 +281,29 @@
         <!-- Exhibition Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Library Exhibition</h2>
+                <h2 class="page-header" style="font-family: 'Droid Serif', serif;">Library Exhibition</h2>
 
         </div>
         <!-- /.row -->
 <!-- Features Section -->
     <div class="col-md-6">
-        <img class="img-responsive" src="images/art_1.jpg" alt="">
+        <img class="art_school img-responsive" src="images/art_1.jpg" alt="">
     </div>
 
     <div class="col-md-6">
-        <p>What is this Exhibition about?</p>
+        <p style="font-family: 'Roboto Condensed', sans-serif; font-size:20px; font-weight:600;">
+            What is this Exhibition about?</p>
 
-        <p>
+        <p style="font-family: 'Roboto Condensed', sans-serif; font-size:16px;">
             This exhibition is dedicated to the memory of John James Audubon,
             organized by Meghan Doherty, and is taking place at the Berea College library.
             The purpose of this exhibition is to show off the artwork and plates of the naturalist, John James Audubon.
 
+Bringing together materials from the College Art Collection and Special Collections and Archives,
+this exhibition explores the work of John James Audubon within the larger context of the history of
+natural history. Beginning with one of the first accounts of the fauna of the Americas and ending with
+ a print made on Berea College’s campus, this exhibition situates Audubon’s monumental work into a
+ larger conversation about the natural history of North America.
         </p>
             <a class="btn btn-primary" href="portfolio-1-col.html">Learn More</a>
 

@@ -18,7 +18,10 @@
     <link href="css/modern-business.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Orbitron" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,8 +34,57 @@
 
 <body>
 <style>
+html, body{
+    background-image: url("images2/back.jpg");
+    background-size: inherit;
+
+
+}
+.dropdown-menu>li>a{
+font-family: 'Cinzel', serif;
+
+
+}
+.navbar-inverse .navbar-nav>li>a{
+    font-family: 'Cinzel', serif;}
+.navbar-inverse .navbar-brand{
+        font-family: 'Orbitron', sans-serif;
+    }
 .page-header{
     margin: 60px 0 20px;
+    border-bottom: 0px;
+
+}
+.blockquote-footer{
+    display:block;
+    font-size: 14px;
+    color: #636c72;
+
+
+}
+.descriptions{
+    font-weight:700;
+    min-height: 1px;
+    font-size: 16px;
+
+
+}
+p{
+font-family: 'Open Sans', sans-serif;
+font-size:15px;
+}
+.labels::first-letter {
+    font-size: 200%;
+    line-height: 5px;
+
+}
+
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 17px;
+    line-height: 4px;
+
+
 
 }
 </style>
@@ -65,13 +117,13 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Audubon <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-item.html">Biography</a>
+                                <a href="portfolio-item.html#biography">Biography</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Contributions</a>
+                                <a href="portfolio-item.html#important">Contributions</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Books</a>
+                                <a href="portfolio-item.html#books">Books</a>
                             </li>
 
                         </ul>
@@ -86,42 +138,7 @@
                         <a href="contact.html">Contact</a>
                     </li>
 
-                    <!--
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
-                    </li>
-                -->
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -135,193 +152,273 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Exhibition Labels
-                    <small></small>
+                <h1 class="page-header">
+
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
-                    <li class="active">One Column Portfolio</li>
+                    <li class="active">Exhibition Labels</li>
                 </ol>
             </div>
         </div>
         <!-- /.row -->
+        <div class="row well">
+            <h2 style="font-weight:700; text-align:center; font-size:20px;"> Audubon in Context </h2>
+            <p class="labels">
+                Bringing together materials from the
+                College Art Collection and Special Collections and Archives,
+                 this exhibition explores the work of John James Audubon within the
+                 larger context of the history of natural history. Beginning with one of
+                  the first accounts of the fauna of the Americas and ending with a print
+                  made on Berea College’s campus, this exhibition situates Audubon’s monumental
+                   work into a larger conversation about the natural history of North America.
+                    This exhibition was curated by the students in
+                    Meghan Doherty’s ARH 215: History of Printmaking in the West class with the
+                     support of Rachel Vagts and Sharyn Mitchell.
+
+
+            </p>
+        </div>
 
         <!-- Project One -->
         <div class="row well">
             <div class="col-md-6 ">
                 <div class="well">
-                <h3>John James Audubon</h3>
-                <h4>The Birds of America</h4>
-                <h4>Color photo-lithography </h4>
-                <h4>1971-72 Hutchins Library</h4>
+                <h2><span class="descriptions">Author/Artist:</span> John Gould</h2>
+                <h2><span class="descriptions">Title:</span><i> Hummingbirds/Erythronota Edwardi</i></h2>
+                <h2><span class="descriptions">Type:</span> Hand colored lithograph </h2>
+                <h2><span class="descriptions">Year:</span> 1861, Berea College Art Collection</h2>
             </div>
 
-                <p>
+                <p class="labels">
+
+The dedication to the study of birds during the 1800’s captures
+ the work of John James Audubon and John Gould. These two men sought to
+ produce images of birds as they appeared, displaying information of a wide
+ range of species that would forever document birds in clarity.
+  Understanding these birds could be achieved through physical and artistic
+  representation in their publications. Gould’s best known publications including <i>Birds of Australia</i>,
+  <i> Birds of Asia</i>and <i>A Monograph of the Trochilidae (Family of Hummingbirds)</i>.
+   <i>The Erythronota Edwardi Hummingbird</i> can  be found in the fifth volume of <i>A Monograph
+       of the Trochilidae</i>. This specific species of hummingbird has a white abdomen,
+       a rich green colored head and neck that bleeds into a purple hue that spreads from the
+       shoulders to the tail and the grassy green color that covers the breast. The name of the
+       bird is derived from the man who gave noticeable attention to natural history, Edward Wilson.
+        Gould’s experiences were turned into artistic reproductions that would gain him recognition
+         and subscription from the royal families of Europe and natural historians.
+          The birds documented from his travels such as those done with Charles
+           Darwin through Tasmania, the islands of Bass’s Strait, South Australia and
+           New South Wales are considered to be scientific achievements because of the
+           extensive documentation of the birds from these regions.
+
+                    <span class="blockquote-footer">—Taylor Styles</span>
 
 
-                    The Bird of America, 1971-72, was the first completed reprint edition of Audubon’s book. It was published in Amsterdam, the Netherlands, using the original copy sold by Audubon to the Teyler Museum in the early 1800’s. This project was supervised by an international panel of notable ornithologists and Audubon experts. Birds of America consisted of 435 actual sized watercolour drawings of birds from America and a scenery to help display the bird in its natural environment. The steps Audubon took to draw a bird started off by hunting them down and turning them into taxidermy. Audubon wanted to make sure he captured all of the right colors, shapes, and details in every part of the art. Audubon sold the engraved plates in England, Europe, and North America. People who bought them received five plates at a time including one large bird, one medium bird, three small birds over a period between 1827 and 1838.
-                    Abby Nash
 </p>
-
             </div>
             <div class="col-md-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover img-rounded" src="images2/IMG_5086.JPG " alt="">
-                </a>
+
+                    <img class="img-responsive  img-rounded" src="images2/IMG_5093.JPG " alt="">
+
             </div>
 
         </div>
         <!-- /.row -->
 
-        <hr>
+
 
         <!-- Project Two -->
 
-        <div class="row well">
-            <div class="col-md-6">
+        <div class="row well" id="wolf">
+            <div class="col-md-6 ">
                 <div class="well">
-                <h3>Theodore Jasper</h3>
-                <h4>Struders Popular Ornithology: the Birds of North America</h4>
-                <h4> Columbus, OH; Jacob H. Studer & Co1878 </h4>
-                <h4> Special Collections and Archives, 598.2 B834</h4>
+                <h2><span class="descriptions">Author/Artist:</span> John James Audubon</h2>
+                <h2><span class="descriptions">Title:</span><i> Canis Lupus, Linn (Var. Albus.) White American Wolf. Male.</i></h2>
+                <h2><span class="descriptions">Type:</span> Lithograph with applied watercolor </h2>
+                <h2><span class="descriptions">Year:</span> 1845, Special Collections and Archives, Gift of Bill Steiner</h2>
             </div>
-                <p>
 
-                    One of the most notable works created by José De Acosta would be The Natural and Moral History of the Indies. This work was published in 1590 by José De Acosta and served to recount his findings as the new world was being investigated. Acosta’s work served many purposes such as convincing the European people that there was in fact a whole new continent and people did indeed live there. The book also provided one of, if not the first detailed descriptions of things such as the uses of coco, the geography of Latin America, and Aztec history. Acosta went far beyond simply giving descriptions and observations as to what was going on in the new world. He sought to give cause as to why the things that were happening actually happened and how they might have come about. José De Acosta acknowledged that he was one of the first authors to try and give cause and reason to things that were happening in the world. Although Acosta died in 1600, his works helped shape the world’s understanding of this new continent that had been discovered and what might be lurking on it. This work belongs in our exhibit because it gives us insight into our continent before it was investigated while at the same time giving us reasoning and descriptions of the events that transpired at the time.
-                    Bradley Atkinson
+                <p class="labels">
+
+
+                    John James Audubon’s <i>White American Wolf</i>,
+                    compliments his style for drawing wildlife creatures
+                    by making the figures stand out against  the background
+                    in all of his prints. Audubon does a great job showing expression
+                    in the wolf by adding depth to its muscles and fur and even its fangs.
+                    The American white wolf, shown in the middle of a feast reveals its teeth to
+                    the viewer, creates an emotion to the viewer in what looks
+                    like to be an invasion of privacy by the viewer as well as the artist.
+                     Just like Audubon’s birds, his other wildlife creatures are always presented in natural attitudes. His prints depict animals living their everyday lives.Audubon did two different forms for his drawings one for small species and one for bigger species.  Audubon would also work from dead specimens and each of his drawings would be a composition consciously designed to display the living animal to best advantage.Audubon and acquaintances of his hunted these kinds of Wolves and knowing Audubon’s technique of drawing composition consciously would draw this Wolf alive and in a position that is considered normal to its environment which would leave the print looking very realistic.
+
+                    <span class="blockquote-footer">—Christopher Spratling</span>
+
+
 </p>
-
             </div>
             <div class="col-md-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover img-rounded" src="images/a_book.JPG" alt="">
-                </a>
+
+                    <img class="img-responsive  img-rounded" src="images/white.jpg " alt="">
+
             </div>
 
         </div>
         <!-- /.row -->
 
-        <hr>
+
 
         <!-- Project Three -->
-        <div class="row well">
-            <div class="col-md-6">
+        <div class="row well" id="squirrel">
+            <div class="col-md-6 ">
                 <div class="well">
-                <h3>John James Audubon</h3>
-                <h4>The Birds of America</h4>
-                <h4>Color photo-lithography </h4>
-                <h4>1971-72 Hutchins Library</h4>
-                </div>
-                <p>
-                    One of the most notable works created by José De Acosta would be The Natural and Moral History of the Indies. This work was published in 1590 by José De Acosta and served to recount his findings as the new world was being investigated. Acosta’s work served many purposes such as convincing the European people that there was in fact a whole new continent and people did indeed live there. The book also provided one of, if not the first detailed descriptions of things such as the uses of coco, the geography of Latin America, and Aztec history. Acosta went far beyond simply giving descriptions and observations as to what was going on in the new world. He sought to give cause as to why the things that were happening actually happened and how they might have come about. José De Acosta acknowledged that he was one of the first authors to try and give cause and reason to things that were happening in the world. Although Acosta died in 1600, his works helped shape the world’s understanding of this new continent that had been discovered and what might be lurking on it. This work belongs in our exhibit because it gives us insight into our continent before it was investigated while at the same time giving us reasoning and descriptions of the events that transpired at the time.
-                    Bradley Atkinson
+                <h2><span class="descriptions">Author/Artist:</span> Dan Short</h2>
+                <h2><span class="descriptions">Title:</span> <i>The Berea College Grey Squirrel</i></h2>
+                <h2><span class="descriptions">Type:</span> Lithograph</h2>
+                <h2><span class="descriptions">Year:</span> 1978, Gift of the Alumni Association, 1979, 180.L.183
+</h2>
+            </div>
 
-                </p>
+                <p class="labels">
 
+
+            The grey squirrel is one of the most abundant types of squirrel that can be found in
+            Central Kentucky. The same holds true more specifically in the Berea area of Kentucky. Dan Short, the creator of this piece did this because he wished to give something back to Berea after graduating from the College. He decided to create a painting with the intent of it being marketed so that the proceeds would come back to the College. The Berea College Grey Squirrel was initially started in 1977 and completed in 1979. Dan Short wished for people to understand how the animals actually looked out in the wild and how the squirrels interacted with the bird life.  Short himself credits many different influences that guided his work but also believed that his style was something that he has made his own. Many will agree that Short managed to capture the authenticity of the details that make up the animals depicted in the print. This piece was added to the exhibit due to its relevance to Berea College culture. The grey squirrels make up a large part of the Berea College wildlife and Dan Short wished to give something back to the college that he felt represented it.
+
+                    <span class="blockquote-footer">—Bradley Atkinson</span>
+
+
+</p>
             </div>
             <div class="col-md-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover img-rounded" src="images2/IMG_5088.JPG" alt="">
-                </a>
+
+                    <img class="img-responsive  img-rounded" src="images2/IMG_5100.JPG " alt="">
+
             </div>
 
         </div>
         <!-- /.row -->
 
-        <hr>
+
 
         <!-- Project Four -->
         <div class="row well">
-            <div class="col-md-6">
+            <div class="col-md-6 ">
                 <div class="well">
-                <h3>John James Audubon</h3>
-                <h4>The Birds of America</h4>
-                <h4>Color photo-lithography </h4>
-                <h4>1971-72 Hutchins Library</h4>
+                <h2><span class="descriptions">Author/Artist:</span> John James Audubon</h2>
+                <h2><span class="descriptions">Title:</span> <i>The Birds of America</i></h2>
+                <h2><span class="descriptions">Type:</span> Color photo-lithography </h2>
+                <h2><span class="descriptions">Publisher/Date:</span> 1971-72 Hutchins Library</h2>
             </div>
-                <p>
 
-                    One of the most notable works created by José De Acosta would be The Natural and Moral History of the Indies. This work was published in 1590 by José De Acosta and served to recount his findings as the new world was being investigated. Acosta’s work served many purposes such as convincing the European people that there was in fact a whole new continent and people did indeed live there. The book also provided one of, if not the first detailed descriptions of things such as the uses of coco, the geography of Latin America, and Aztec history. Acosta went far beyond simply giving descriptions and observations as to what was going on in the new world. He sought to give cause as to why the things that were happening actually happened and how they might have come about. José De Acosta acknowledged that he was one of the first authors to try and give cause and reason to things that were happening in the world. Although Acosta died in 1600, his works helped shape the world’s understanding of this new continent that had been discovered and what might be lurking on it. This work belongs in our exhibit because it gives us insight into our continent before it was investigated while at the same time giving us reasoning and descriptions of the events that transpired at the time.
-                    Bradley Atkinson
+                <p class="labels">
+
+
+                    <i>The Bird of America</i>, 1971-72, was the
+                    first completed reprint edition of Audubon’s book.
+                     It was published in Amsterdam, the Netherlands,
+                     using the original copy sold by Audubon to the Teyler Museum
+                     in the early 1800’s. This project was supervised by an international
+                     panel of notable ornithologists and Audubon experts. <i>Birds of America</i>
+                      consisted of 435 actual sized watercolour drawings of birds from America
+                      and a scenery to help display the bird in its natural environment.
+                      The steps Audubon took to draw a bird started off by hunting
+                      them down and turning them into taxidermy.
+                      Audubon wanted to make sure he captured all of the right colors,
+                       shapes, and details in every part of the art.
+                       Audubon sold the engraved plates in England, Europe, and North America.
+                        People who bought them received five plates at a time including one
+                        large bird, one medium bird, three small birds over a period between 1827 and 1838.
+                    <span class="blockquote-footer">—Abby Nash</span>
+
+
 </p>
-
             </div>
             <div class="col-md-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover img-rounded" src="images2/snake.jpg" alt="">
-                </a>
+
+                    <img class="img-responsive  img-rounded" src="images2/IMG_5086.JPG " alt="">
+
             </div>
 
         </div>
         <!-- /.row -->
 
-        <hr>
 
         <!-- Project Five -->
         <div class="row well">
-            <div class="col-md-6">
+            <div class="col-md-6 ">
                 <div class="well">
-                <h3>John James Audubon</h3>
-                <h4>The Birds of America</h4>
-                <h4>Color photo-lithography </h4>
-                <h4>1971-72 Hutchins Library</h4>
+                <h2><span class="descriptions">Author/Artist:</span> John James Audubon</h2>
+                <h2><span class="descriptions">Title:</span> <i>Mockingbird Amsterdam Reprint</i></h2>
+                <h2><span class="descriptions">Type:</span> Color photo-lithography </h2>
+                <h2><span class="descriptions">Year:</span> 1971, Recent Gift</h2>
             </div>
-                <p>
 
-                    One of the most notable works created by José De Acosta would be The Natural and Moral History of the Indies. This work was published in 1590 by José De Acosta and served to recount his findings as the new world was being investigated. Acosta’s work served many purposes such as convincing the European people that there was in fact a whole new continent and people did indeed live there. The book also provided one of, if not the first detailed descriptions of things such as the uses of coco, the geography of Latin America, and Aztec history. Acosta went far beyond simply giving descriptions and observations as to what was going on in the new world. He sought to give cause as to why the things that were happening actually happened and how they might have come about. José De Acosta acknowledged that he was one of the first authors to try and give cause and reason to things that were happening in the world. Although Acosta died in 1600, his works helped shape the world’s understanding of this new continent that had been discovered and what might be lurking on it. This work belongs in our exhibit because it gives us insight into our continent before it was investigated while at the same time giving us reasoning and descriptions of the events that transpired at the time.
-                    Bradley Atkinson
+                <p class="labels">
+
+
+                    John James Audubon’s <i>Mockingbird</i>, painted in 1827,
+                    demonstrates Audubon’s love of nature and his ability to evoke the
+                    splendors of different American landscapes. He starts with the paradisiacal
+                    description of Louisiana habitat of the mockingbird being the bounties of nature
+                    with scandent growth of vines and thousand beautiful flowers . In such a beautiful
+                    scene, he then places the mockingbird to be a delight to the nature of Louisiana
+                    flying around his mate with motions as light comparing it to the butterfly.
+                     In the painting, with the scene of the rattlesnake attacking the
+                     mockingbird’s nest, Audubon expresses his astonishment to the courage
+                     the mockingbird takes to confront the rattlesnake as he
+                     describes the mockingbirds being always ready not only to defend
+                     themselves with courage but to meet the aggressor and force him to
+                     abandon his intention. Finally, with such a beautiful description of the
+                      mystical landscape of Louisiana, Audubon assumes that such fertility of
+                      nature should serve human needs instead of being neglected. This plate
+                       of Audubon’s Mockingbird was later reprinted in Amsterdam in 1971.
+
+                    <span class="blockquote-footer">—Sher Sanginov</span>
+
+
 </p>
-
             </div>
             <div class="col-md-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover img-rounded" src="images2/IMG_5089.JPG" alt="">
-                </a>
+
+                    <img class="img-responsive  img-rounded" src="images2/snake.jpg " alt="">
+
             </div>
 
         </div>
         <!-- /.row -->
 
-        <hr>
 
         <!-- Pagination -->
         <div class="row text-center">
             <div class="col-lg-12">
                 <ul class="pagination">
-                    <li>
-                        <a href="#">&laquo;</a>
-                    </li>
+
                     <li class="active">
                         <a href="#">1</a>
                     </li>
                     <li>
-                        <a href="porfolio-1-col1.html">2</a>
+                        <a href="portfolio-2-col.html">2</a>
                     </li>
                     <li>
-                        <a href="#">3</a>
+                        <a href="portfolio-3-col.html">3</a>
                     </li>
+
                     <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">&raquo;</a>
+                        <a href="portfolio-2-col.html">&raquo;</a>
                     </li>
                 </ul>
             </div>
         </div>
         <!-- /.row -->
 
-        <hr>
+
 
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Sher Sanginov 2014</p>
+                    <p style="color:black; text-align:center; ">Copyright &copy; Sher Sanginov 2017</p>
                 </div>
             </div>
         </footer>

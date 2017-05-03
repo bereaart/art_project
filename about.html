@@ -18,7 +18,11 @@
     <link href="css/modern-business.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Orbitron" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,6 +34,63 @@
 </head>
 
 <body>
+<style>
+.navbar-inverse .navbar-nav>li>a{
+    font-family: 'Cinzel', serif;
+    font-size:15px;
+}
+a{
+    font-size: 16px;
+
+
+}
+.dropdown-menu>li>a{
+font-family: 'Cinzel', serif;
+
+
+}
+
+html, body {
+     font: 20px Montserrat, sans-serif;
+     line-height: 1.8;
+     color: #f5f6f7;
+ }
+ .button{
+     background:white;
+     display: inline-block;
+     text-decoration: none;
+     letter-spacing: 0;
+     padding: 12px 20px;
+     margin-bottom: 18px;
+     border-radius: 10px;
+     margin-top:5px;
+
+ }
+ p {font-size: 16px;}
+ .margin {margin-bottom: 20px;}
+ .bg-1 {
+     background-color: #1abc9c; /* Green */
+     color: #ffffff;
+ }
+ .bg-2 {
+     background-color: #474e5d; /* Dark Blue */
+     color: #ffffff;
+ }
+ .bg-3 {
+     background-color: #ffffff; /* White */
+     color: #555555;
+ }
+ .bg-4 {
+     background-color: #2f2f2f; /* Black Gray */
+     color: #fff;
+ }
+ .container-fluid {
+     padding-top: 70px;
+     padding-bottom: 70px;
+ }
+
+
+</style>
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -54,13 +115,13 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Audubon <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-item.html">Biography</a>
+                                <a href="portfolio-item.html#biography">Biography</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Contributions</a>
+                                <a href="portfolio-item.html#important">Contributions</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Books</a>
+                                <a href="portfolio-item.html#books">Books</a>
                             </li>
 
                         </ul>
@@ -74,42 +135,7 @@
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
-                    <!--
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
-                    </li>
-                -->
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -123,8 +149,7 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">About
-                    <small></small>
+                <h1 class="page-header">
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
@@ -136,173 +161,58 @@
         <!-- /.row -->
 
         <!-- Intro Content -->
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img-responsive" src="images/cover.jpg" alt="">
-            </div>
-            <div class="col-md-6">
-                <h2>About Us</h2>
-            <p> I'll write something here </p>
-            </div>
-        </div>
+        <!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="images2/sher.jpg" class="img-responsive img-rounded margin" style="display:inline" alt="Sher" width="250" >
+  <h3 style="font-family: 'Revalia', cursive;">I am Sher Sanginov</h3>
+  <h4 style="font-family: 'Revalia', cursive;"> Berea College student || Rising junior || Computer Science.</h4>
+
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What is this website about?</h3>
+  <p>This website was created as part of my research paper for the History of Printmaking
+      class taught by Meghan Doherty. I chose to write about one of the most well-known American
+      naturalists of all time, John James Audubon. In order to reach a larger audience, I decided to
+       create a website that introduces John James Audubon to others and allows people to grow interest to his work. Moreover, my website showcases exhibition labels from the Berea College library which explores the work of John James Audubon within the context of the history of natural history.
+       If you are interested in reading my paper, feel free to download it:
+  </p>
+        <div class="columns download">
+                  <p>
+                     <a href="final_paper.docx" class="button"><i class="fa fa-download"></i> Download Paper</a>
+                  </p>
+               </div>
+
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>You can reach me via email: sherjunior6505@gmail.com</p>
+      <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+    </div>
+    <div class="col-sm-4">
+      <p>If you don't use emails, you can simply call me: (859)-893-71-25</p>
+      <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+    </div>
+    <div class="col-sm-4">
+      <p> If two previous methods don't work, you can simply mail your question to this address: 101 Chestnut St. CPO 1377, Berea, KY 40404</p>
+      <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+    </div>
+  </div>
+</div>
         <!-- /.row -->
 
-        <!-- Team Members -->
-        <!--
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Our Team</h2>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-        <!-- /.row -->
-
-        <!-- Our Customers -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Exhibtion Labels</h2>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
 
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Sher Sanginov 2017</p>
+                    <p style="color:black;">Copyright &copy; Sher Sanginov 2017</p>
                 </div>
             </div>
         </footer>
